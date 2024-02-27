@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "author": "Freedom Evenden <f3ve>",
   "description": "A starter template for monorepos",
+  "type": "module",
   "main": "index.js",
   "private": true,
   "scripts": {
