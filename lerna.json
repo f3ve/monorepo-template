@@ -12,6 +12,6 @@
       "gitTagVersion": true
     }
   },
-
+  "packages": ["packages/*"],
   "npmClient": "pnpm"
 }
