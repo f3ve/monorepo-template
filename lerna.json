@@ -1,5 +1,5 @@
 {
-  "$schema": "node_modules/lerna/schemas/lerna-schema.json",
+  "$schema": "node_modules/@lerna-lite/cli/schemas/lerna-schema.json",
   "version": "0.0.0",
   "changelogPreset": "angular",
   "loglevel": "verbose",
@@ -12,6 +12,8 @@
       "gitTagVersion": true
     }
   },
-  "packages": ["packages/*"],
+  "packages": [
+    "packages/*"
+  ],
   "npmClient": "pnpm"
 }
